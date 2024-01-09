@@ -1,0 +1,84 @@
+.container {
+  min-height: 100%;
+  background-color: var(--secondary-color);
+  padding: 16px;
+}
+
+.title {
+  color: var(--primary-color);
+  font-size: var(--title-fs);
+  text-align: center;
+}
+
+.para {
+  color: var(--primary-color);
+  font-size: var(--para-fs);
+}
+
+/* Pop up modal common style */
+.modal-container {
+  min-width: 200vw;
+  min-height: 200vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(66, 76, 85, 0.7);
+  z-index: 99;
+}
+
+.modal-card-wrapper {
+  position: inherit;
+  top: 42%;
+  left: 16px;
+  right: 16px;
+  background-color: var(--lavender);
+  border-radius: 5px;
+  transform: scale(0);
+  transition: transform 150ms;
+}
+.modalcard-exit-done {
+  transform: scale(1);
+}
+
+.modal-detail-view {
+  padding: 16px;
+  cursor: text;
+  word-wrap: break-word;
+  max-height: 25vh;
+  overflow-y: auto;
+}
+
+.modal-detail-view.active {
+  text-decoration: line-through;
+  text-decoration-color: var(--primary-color);
+}
+
+.modal-btn-group {
+  justify-content: end;
+  margin: 16px 0px;
+  margin-right: 16px;
+}
+/************** END OF: Pop up modal common style **************/
+
+@media (min-width: 500px) {
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    border-radius: 5px;
+    width: 460px;
+    min-height: auto;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+  .modal-card-wrapper {
+    width: 428px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}

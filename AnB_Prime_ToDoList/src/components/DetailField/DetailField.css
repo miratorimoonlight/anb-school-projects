@@ -1,0 +1,24 @@
+.edit-view {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  resize: none;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  min-width: 100%;
+  color: var(--primary-color);
+  padding: 16px;
+  max-height: 120px;
+}
+
+#done-edit-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: inherit;
+  font-family: inherit;
+  padding: 8px 12px;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.main-404-wrapper > img {
+  display: block;
+  margin: 28px auto;
+}
+
+.error-404 {
+  font-size: var(--big-font-size);
+  color: var(--secondary-color);
+  text-align: center;
+  margin-bottom: 14px;
+  opacity: 0.7;
+}
+
+.other-error {
+  color: var(--secondary-color);
+  opacity: 0.7;
+  text-align: center;
+}

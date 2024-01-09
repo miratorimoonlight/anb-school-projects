@@ -1,0 +1,80 @@
+.car-model .card-car {
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+}
+
+.car-model img {
+  width: 350px;
+  height: 270px;
+  border-radius: 3px 3px 0 0;
+}
+
+.car-model .white-line {
+  width: 100%;
+  height: 1px;
+  background-color: #d5d5d5;
+  margin: auto;
+}
+
+.car-model .car-name i {
+  color: #ffc933;
+  font-size: 16px;
+}
+
+.car-info {
+  padding: 20px 30px;
+  gap: 22px;
+}
+
+.car-price p.small-title {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+
+.car-info .small-title.paragraph {
+  font-size: 20px;
+}
+
+.brand-car i,
+.describe i,
+.car-fuel i,
+.tyoe i {
+  font-size: 20px;
+}
+
+.stars {
+  gap: 2px;
+}
+
+@media (max-width: 1020px) {
+  .car-model img {
+    width: 330px;
+  }
+
+  .car-model .w-md {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 768px) {
+  .car-model img {
+    width: 330px;
+  }
+}
+
+@media (max-width: 445px) {
+  .car-model img {
+    width: 335px;
+  }
+}
+
+@media (max-width: 350px) {
+  .car-model img {
+    width: 290px;
+  }
+
+  .car-name-price div.car-name p.big-title,
+  .car-name-price div.car-price p.big-title {
+    font-size: 26px;
+  }
+}

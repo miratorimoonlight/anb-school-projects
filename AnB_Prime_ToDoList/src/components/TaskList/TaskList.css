@@ -1,0 +1,109 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+  margin-bottom: 80px;
+}
+
+:root {
+  --search-width: 230px;
+  --translate-x: 190px;
+}
+
+.search-box {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+}
+
+.search-input {
+  width: 40px;
+  height: 100%;
+  border: none;
+  border-radius: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  transition: 200ms;
+  font-size: inherit;
+  font-family: inherit;
+  padding-left: 16px;
+  color: var(--primary-color);
+}
+
+.search-input::placeholder {
+  color: transparent;
+}
+
+.search-box:hover > .search-input {
+  width: var(--search-width);
+  background-color: #fff;
+  outline: 1px solid var(--primary-color);
+  padding-right: 35px;
+}
+
+.search-box:hover > .search-input::placeholder {
+  color: var(--primary-color);
+}
+
+.search-input:focus {
+  width: var(--search-width);
+  opacity: 1;
+  background-color: #fff;
+  outline: 1px solid var(--primary-color);
+  padding-right: 35px;
+}
+.search-input:focus::placeholder {
+  color: var(--primary-color);
+}
+
+.search-icon {
+  font-size: 20px;
+  color: var(--secondary-color);
+  margin: auto;
+  transition: transform 200ms;
+  z-index: 0;
+}
+.search-box:hover > .search-icon {
+  color: var(--primary-color);
+  transform: translateX(var(--translate-x));
+}
+.search-input:focus ~ .search-icon {
+  color: var(--primary-color);
+  transform: translateX(var(--translate-x));
+}
+
+.search-result {
+  word-wrap: break-word;
+  color: var(--fourth-brown);
+}
+
+.no-todo {
+  color: rgba(66, 76, 85, 0.7);
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 200ms;
+}
+.no-todo:hover {
+  box-shadow: 0px 0px 10px 2px rgba(66, 76, 85, 0.1);
+}
+
+.no-result {
+  color: rgba(66, 76, 85, 0.7);
+}
+
+@media (min-width: 500px) {
+  .task-list {
+    margin-bottom: 40px;
+  }
+}

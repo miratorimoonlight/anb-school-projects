@@ -1,0 +1,49 @@
+.task-card {
+  background-color: var(--lavender);
+  border-radius: 5px;
+  height: 44px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform 200ms;
+}
+
+.task-card:hover {
+  transform: scale(1.02);
+}
+
+.task-card > p {
+  color: var(--primary-color);
+}
+
+.task-card.active {
+  text-decoration: line-through;
+  text-decoration-color: var(--primary-color);
+}
+
+.task-btn-group {
+  display: flex;
+  gap: 8px;
+}
+
+.action-btn {
+  height: 25px;
+  width: 25px;
+  border: none;
+  border-radius: 5px;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+#done-btn {
+  background-color: var(--third-brown);
+}
+
+#done-btn.active {
+  background-color: var(--green);
+}
+
+#del-btn {
+  background-color: var(--primary-color);
+}

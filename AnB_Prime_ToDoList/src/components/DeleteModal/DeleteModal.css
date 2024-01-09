@@ -1,0 +1,31 @@
+.no-del-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--secondary-color);
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: opacity 150ms;
+}
+.no-del-btn:hover {
+  opacity: 0.8;
+}
+
+.yes-del-btn {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: underline;
+  color: var(--danger);
+  transition: border 150ms;
+  padding: 8px 12px;
+}
+
+.yes-del-btn:hover {
+  border: 1px solid var(--danger);
+}

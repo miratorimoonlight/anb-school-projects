@@ -1,0 +1,12 @@
+.spinner-container {
+  color: var(--secondary-color);
+  opacity: 0.6;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  min-height: 210px;
+  /* border: 1px solid; */
+}

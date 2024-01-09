@@ -1,0 +1,190 @@
+/* 100 pixels up to 554 pixels */
+@media (min-width: 100px) and (max-width: 549px) {
+  .about-team h3 {
+    margin-top: 30px;
+  }
+  .about-info {
+    width: 360px;
+    margin: auto;
+  }
+  .about-info h1 {
+    line-height: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .about-info > p {
+    padding: 30px;
+  }
+
+  .each-info {
+    margin-top: 40px;
+  }
+  .each-info img {
+    width: 70px;
+    /* height: 45px; */
+  }
+
+  .each-info .info-box {
+    width: 50px;
+  }
+
+  .about-img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .icon-wrapper {
+    margin-top: 60px;
+  }
+  .sec3-align-text {
+    text-align: center;
+    width: 250px;
+  }
+  .sec-3-icon {
+    width: 170px;
+    height: 170px;
+  }
+
+  .sec3-title {
+    text-align: center;
+  }
+
+  .icon-wrapper {
+    margin-top: 60px;
+  }
+
+  /* 550 pixels up to */
+}
+
+@media (min-width: 100px) and (max-width: 360px) {
+  .about-info {
+    width: 80%;
+  }
+}
+/* 551 pixels to 960 pixels */
+
+@media (min-width: 550px) and (max-width: 960px) {
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 500px;
+    margin: auto;
+  }
+  .about-team h3 {
+    margin-top: 30px;
+  }
+  .about-info h1 {
+    margin-bottom: 20px;
+  }
+  .about-info p {
+    margin-bottom: 35px;
+  }
+  .each-info {
+    margin-top: 10px;
+  }
+  .about-info .info-box {
+    width: 50px;
+  }
+
+  .wrap-about-car {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+  }
+  .wrap-about-car img {
+    width: 70px;
+  }
+  .about-img {
+    width: 550px;
+    margin: 0 auto;
+  }
+  #icon-wrapper-tab {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-team .wrap-about-car .each-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .about-team .car-info {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+  }
+  .sec3-align-text {
+    text-align: center;
+    width: 250px;
+  }
+  .sec-3-icon {
+    width: 170px;
+    height: 170px;
+  }
+
+  .sec3-title {
+    text-align: center;
+  }
+
+  .icon-wrapper {
+    margin-top: 60px;
+  }
+}
+
+/*  961 pixels up */
+
+@media (min-width: 961px) {
+  .about-img {
+    width: 420px;
+    height: 430px;
+  }
+  .wrap-about-car img {
+    width: 70px;
+  }
+  .about-team {
+    display: flex;
+  }
+
+  .about-team > div {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .about-info {
+    text-align: left;
+    width: 420px;
+  }
+
+  .wrap-about-car {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    align-items: end;
+  }
+
+  .about-team > div {
+    align-items: end;
+  }
+  .each-info .info-box {
+    width: 50px;
+  }
+
+  .wrap-about-car .car-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  #icon-wrapper-tab {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sec-3-icon {
+    width: 170px;
+    height: 170px;
+  }
+  .sec3-align-text {
+    text-align: center;
+    width: 250px;
+  }
+}

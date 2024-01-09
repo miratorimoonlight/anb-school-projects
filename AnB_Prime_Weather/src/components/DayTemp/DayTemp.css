@@ -1,0 +1,19 @@
+.day-temp-wrapper {
+  background: var(--primary-color);
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.day {
+  color: var(--brown);
+}
+
+.temp {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 300;
+}

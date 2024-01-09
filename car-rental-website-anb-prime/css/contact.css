@@ -1,0 +1,343 @@
+@media (min-width: 100px) and (max-width: 767px) {
+  .right-side {
+    margin: 0 1rem;
+  }
+  .contact-html {
+    width: 100%;
+    background-image: url(/images/contact/bg-contact.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  .contact-html h1 {
+    text-align: center;
+    margin: 12px auto;
+    padding: 12px;
+  }
+  .contact-html .left-side-text {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .phone-number {
+    display: inline-block;
+    font-weight: bold;
+  }
+  .svg-mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 118px;
+    gap: 18px;
+  }
+  .mail-text {
+    display: inline-block;
+    font-weight: bold;
+  }
+  .svg-mail .fa-sharp {
+    width: 12px;
+  }
+  .mull {
+    color: red;
+  }
+  .contact-html .right-side .name-input {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .eg-joe {
+    width: 100%;
+    padding: 12px 70px;
+    margin: 13px auto;
+    border: 1px solid white;
+    background-color: rgb(242, 242, 242);
+    display: block;
+    border-radius: 3px;
+  }
+  .eg-joe::-webkit-input-placeholder {
+    text-align: left;
+  }
+  .contact-html .right-side .email-input {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .contact-html .right-side .tell-us-input {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .eg-joe-write {
+    width: 100%;
+    padding: 90px 70px;
+    margin: 13px auto;
+    border: 1px solid white;
+    background-color: rgb(242, 242, 242);
+    display: block;
+    border-radius: 3px;
+    outline: none;
+  }
+  .eg-joe::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .eg-joe-write::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .fa-thin {
+    width: 150px;
+  }
+  .sendMessage-Text {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 70px;
+    margin: 12px 45px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+  }
+  .contact-html > .svg-mail-2 .fa-sharp {
+    width: 20px;
+  }
+  .svg-mail-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    border-radius: 3px;
+    gap: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .svg-mail-2 > .mail-text-2 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .fa-envelope-2 {
+    color: white;
+  }
+}
+@media (min-width: 768px) {
+  .contact-html {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(/images/contact/bg-contact.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  .h1 {
+    max-width: 70%;
+  }
+  .left-side-text {
+    padding-top: 30px;
+    font-size: 16px;
+    max-width: 70%;
+  }
+  .eg-joe::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .svg-mail {
+    display: flex;
+    gap: 10px;
+    margin: 16px auto;
+  }
+  .contact-html .right-side .name-input {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .eg-joe {
+    padding: 12px 110px;
+    margin: 13px auto;
+    border: 1px solid white;
+    background-color: rgb(242, 242, 242);
+    display: block;
+    border-radius: 3px;
+  }
+  .eg-joe::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .eg-joe-write::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .contact-html .right-side .email-input {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .contact-html .right-side .tell-us-input {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .eg-joe-write {
+    padding: 50px 110px;
+    margin: 13px auto;
+    border: 1px solid white;
+    background-color: rgb(242, 242, 242);
+    display: block;
+    border-radius: 3px;
+    outline: none;
+  }
+  .svg-mail-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 182px;
+    border-radius: 3px;
+    gap: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .svg-mail-2 > .mail-text-2 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .fa-envelope-2 {
+    color: white;
+  }
+  .mull {
+    color: red;
+  }
+  .name-input {
+    padding-right: 275px;
+  }
+  .email-input {
+    padding-right: 308px;
+  }
+  .tell-us-input {
+    padding-right: 241px;
+  }
+  .right-side {
+    margin: -33px;
+    padding-right: 2.3rem;
+  }
+  .phone-number {
+    font-weight: bold;
+  }
+  .mail-text {
+    font-weight: bold;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper-contact {
+    width: 100%;
+    margin: auto;
+  }
+  .contact-html {
+    display: flex;
+    justify-content: center;
+    background-image: url(/images/contact/bg-contact.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  .phone-number {
+    font-weight: bold;
+  }
+  .mail-text {
+    font-weight: bold;
+  }
+  .eg-joe::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .left-side-text {
+    padding-top: 30px;
+    font-size: 20px;
+    max-width: 70%;
+  }
+  .svg-mail {
+    display: flex;
+    gap: 10px;
+    margin: 16px auto;
+  }
+  .contact-html .right-side .name-input {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .eg-joe {
+    padding: 12px 200px;
+    margin: 13px auto;
+    border: 1px solid white;
+    background-color: rgb(242, 242, 242);
+    display: block;
+    border-radius: 3px;
+  }
+  .eg-joe::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .eg-joe-write::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .contact-html .right-side .email-input {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .contact-html .right-side .tell-us-input {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .eg-joe-write {
+    padding: 50px 200px;
+    margin: 13px auto;
+    border: 1px solid white;
+    background-color: rgb(242, 242, 242);
+    display: block;
+    border-radius: 3px;
+    outline: none;
+  }
+  .svg-mail-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 273.5px;
+    border-radius: 3px;
+    gap: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .svg-mail-2 > .mail-text-2 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .fa-envelope-2 {
+    color: white;
+  }
+  .mull {
+    color: red;
+  }
+  .name-input {
+    padding-right: 450px;
+  }
+  .email-input {
+    padding-right: 480px;
+  }
+  .tell-us-input {
+    padding-right: 420px;
+  }
+
+  .contact-html .right-side .name-input {
+    padding-top: 4px;
+  }
+}

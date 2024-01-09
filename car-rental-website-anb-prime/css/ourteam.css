@@ -1,0 +1,43 @@
+.card .member > img {
+  height: 500px;
+  width: 330px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.info {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 0px;
+}
+
+.job {
+  color: #777;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.member {
+  background-color: rgb(236, 236, 236);
+  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 1150px) {
+  .container .w-md {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 748px) {
+  .card .member > img {
+    width: 300px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 350px) {
+  .card .member > img {
+    width: 290px;
+    height: 350px;
+  }
+}
